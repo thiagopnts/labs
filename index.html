@@ -18,6 +18,16 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=254582621301698";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
     <header>
       <div class="inner">
         <h1>The Laboratory</h1>
@@ -46,6 +56,7 @@
   
     <footer>
       <p>This page is powered by <a href="pages.github.com">GitHub Pages</a> and the theme was a courtesy from <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
+      <div class="fb-like" data-href="http://thiagopontes.net/labs" data-send="true" data-width="450" data-show-faces="false"></div>
     </footer>
   </body>
 </html>
