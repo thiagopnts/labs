@@ -13,9 +13,9 @@
     BackboneTunes.prototype.routes = {
       '': 'home',
       '/': 'home',
-      '/tunes': 'home', //to run it on my github pages site
+      '/labs/tunes': 'home', //to run it on my github pages site
       'blank': 'home',
-      '/tunes/': 'home'
+      '/labs/tunes/': 'home'
     };
 
     BackboneTunes.prototype.initialize = function() {
@@ -30,7 +30,7 @@
     };
 
     BackboneTunes.prototype.redirect = function() {
-      this.navigate('/tunes', true)
+      this.navigate('/labs/tunes', true)
     }
 
     BackboneTunes.prototype.home = function() {
