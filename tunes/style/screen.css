@@ -72,35 +72,35 @@ nav button.control {
 }
 
 nav button.play {
-    background: url('labslabs/tunes/images/control_play.png') center no-repeat;
+    background: url('/labs/tunes/images/control_play.png') center no-repeat;
 }
 
 nav button.play:hover {
-    background: url('labs/tunes/images/control_play_hover.png') center no-repeat;
+    background: url('/labs/tunes/images/control_play_hover.png') center no-repeat;
 }
 
 nav button.pause {
-    background: url('labs/tunes/images/control_pause.png') center no-repeat;
+    background: url('/labs/tunes/images/control_pause.png') center no-repeat;
 }
 
 nav button.pause:hover {
-    background: url('labs/tunes/images/control_pause_hover.png') center no-repeat;
+    background: url('/labs/tunes/images/control_pause_hover.png') center no-repeat;
 }
 
 nav button.prev {
-    background: url('labs/tunes/images/control_start.png') center no-repeat;
+    background: url('/labs/tunes/images/control_start.png') center no-repeat;
 }
 
 nav button.prev:hover {
-    background: url('labs/tunes/images/control_start_hover.png') center no-repeat;
+    background: url('/labs/tunes/images/control_start_hover.png') center no-repeat;
 }
 
 nav button.next {
-    background: url('labs/tunes/images/control_end.png') center no-repeat;
+    background: url('/labs/tunes/images/control_end.png') center no-repeat;
 }
 
 nav button.next:hover {
-    background: url('labs/tunes/images/control_end_hover.png') center no-repeat;
+    background: url('/labs/tunes/images/control_end_hover.png') center no-repeat;
 }
 
 .playlist .album .queue.add {
