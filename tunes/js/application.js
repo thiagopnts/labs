@@ -6,7 +6,7 @@
       window.library = new Albums();
       window.App = new BackboneTunes();
       return Backbone.history.start({
-        pushState: true
+        pushState: false
       });
     });
   });

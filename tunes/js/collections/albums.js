@@ -12,7 +12,7 @@
 
     Albums.prototype.model = Album;
 
-    Albums.prototype.url = "/tunes/albums.json";
+    Albums.prototype.url = "albums.json";
 
     return Albums;
 

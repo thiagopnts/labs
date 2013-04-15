@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="style/screen.css" media="screen, projection">
     <link rel="stylesheet" href="style/fancypants.css" media="screen, projection">
 
-    <script src="/tunes/js/vendor/modernizr-1.6.min.js"></script>
-    <script src="/tunes/js/vendor/jquery-1.7.1.js"></script>
-    <script src="/tunes/js/vendor/underscore.js"></script>
+    <script src="js/vendor/modernizr-1.6.min.js"></script>
+    <script src="js/vendor/jquery-1.7.1.js"></script>
+    <script src="js/vendor/underscore.js"></script>
 
     <script type="text/template" id="library-template">
       <h1>Music Library</h1>
@@ -24,8 +24,8 @@
     </script>
 
     <script type="text/template" id="album-template">
-      <button class="queue add"><img src="/tunes/images/add.png" /></button>
-      <button class="queue remove"><img src="/tunes/images/remove.png" /></button>
+      <button class="queue add"><img src="images/add.png" /></button>
+      <button class="queue remove"><img src="images/remove.png" /></button>
       <span class="album-title"><%= title %></span>
       <span class="artist-name"><%= artist %></span>
       <ol class="tracks">
@@ -52,26 +52,26 @@
   <body>
     <div id="container">
     </div>
-    <script src="/tunes/js/vendor/backbone.js"></script>
+    <script src="js/vendor/backbone.js"></script>
 
-    <script src="/tunes/js/models/player.js"></script>
-    <script src="/tunes/js/models/album.js"></script>
-    <script src="/tunes/js/collections/albums.js"></script>
-    <script src="/tunes/js/collections/playlist.js"></script>
+    <script src="js/models/player.js"></script>
+    <script src="js/models/album.js"></script>
+    <script src="js/collections/albums.js"></script>
+    <script src="js/collections/playlist.js"></script>
 
-    <script src="/tunes/js/views/album_view.js"></script>
-    <script src="/tunes/js/views/library_album_view.js"></script>
-    <script src="/tunes/js/views/playlist_album_view.js"></script>
-    <script src="/tunes/js/views/playlist_view.js"></script>
-    <script src="/tunes/js/views/library_view.js"></script>
-    <script src="/tunes/js/router.js"></script>
-    <script src="/tunes/js/application.js"></script>
+    <script src="js/views/album_view.js"></script>
+    <script src="js/views/library_album_view.js"></script>
+    <script src="js/views/playlist_album_view.js"></script>
+    <script src="js/views/playlist_view.js"></script>
+    <script src="js/views/library_view.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/application.js"></script>
     <script type="application/javascript">
       $(document).ready(function() {
         jQuery(function() {
           window.library.fetch();
           window.App.navigate('/', false); 
-          history.replaceState('/', 'tunes', '/tunes'); //hacks, hacks everywhere
+          history.replaceState('/', 'labs/tunes', '/labs/tunes'); //hacks, hacks everywhere
         });
       });
     </script>    
